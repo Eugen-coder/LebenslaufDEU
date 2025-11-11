@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evgeniy Khmelev</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#hero" class="nav-logo"
+            ><img src="assets/exLogo5.png" alt="Evgenii Khmelev Logo"
+          /></a>
+          <ul class="nav-list" id="nav-list">
+            <li><a href="#about" class="nav-link">Über mich</a></li>
+            <li><a href="#skills" class="nav-link">Fähigkeiten</a></li>
+            <li><a href="#experience" class="nav-link">Erfahrung</a></li>
+            <li><a href="#contact" class="nav-link">Kontakt</a></li>
+          </ul>
+          <button class="nav-toggle" id="nav-toggle" aria-label="menu">
+            <i class="bx bx-menu"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <p class="hero-greeting fade-in">Hallo, ich bin</p>
+            <h1 class="hero-title fade-in">Evgeniy Khmelev</h1>
+            <h2 class="hero-subtitle fade-in">
+              <i class="bx bx-leaf icon-large"></i> Creative Designer / Frontend
+              Developer <i class="bx bx-code-alt icon-large"></i>
+            </h2>
+            <a href="#contact" class="btn btn-primary fade-in"
+              >Kontakt aufnehmen →</a
+            >
+            <div class="hero-socials fade-in">
+              <a
+                href="https://linkedin.com/in/evgeniy-khmelev-a673121a7"
+                aria-label="LinkedIn"
+                target="_blank"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a
+                href="https://github.com/Eugen-coder"
+                aria-label="GitHub"
+                target="_blank"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a
+                href="mailto:eskhmelev@gmail.com"
+                aria-label="Email"
+                target="_blank"
+                ><i class="bx bx-envelope"></i
+              ></a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper fade-in">
+            <img src="assets/IMG-20250713-WA0032.png" alt="Evgenii Khmelev" />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="container">
+          <h2 class="section-title fade-in">Über mich</h2>
+          <div class="about-grid">
+            <div class="about-card fade-in">
+              <h3 class="about-card-title">Persönliche Informationen</h3>
+              <ul>
+                <li><i class="bx bx-map"></i> Ettlingen 76275, Deutschland</li>
+                <li>
+                  <i class="bx bx-calendar"></i> 15. März 1980, Kasachstan
+                </li>
+                <li>
+                  <i class="bx bx-heart"></i> Verheiratet, zwei Kinder,
+                  Ukrainisch
+                </li>
+                <li>
+                  <i class="bx bx-flag"></i> Russische Staatsangehörigkeit
+                </li>
+              </ul>
+            </div>
+            <div class="about-card fade-in">
+              <h3 class="about-card-title">Sprachen</h3>
+              <div class="language-item">
+                <span>Russisch</span>
+                <span class="tag tag-native">Muttersprache</span>
+              </div>
+              <div class="language-item">
+                <span>Deutsch</span>
+                <span class="tag tag-a2">A2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills section">
+        <div class="container">
+          <h2 class="section-title fade-in">Fähigkeiten</h2>
+          <div class="skills-grid">
+            <div class="skill-card fade-in">
+              <div class="skill-card-header">
+                <i class="bx bx-code-alt"></i>
+                <h3>Frontend</h3>
+              </div>
+              <ul class="skill-list">
+                <li>
+                  <span>HTML/CSS</span>
+                  <div class="progress-bar">
+                    <div class="progress" data-width="90%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span>JavaScript</span>
+                  <div class="progress-bar">
+                    <div class="progress" data-width="80%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span>React</span>
+                  <div class="progress-bar">
+                    <div class="progress" data-width="75%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span>TypeScript</span>
+                  <div class="progress-bar">
+                    <div class="progress" data-width="65%"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="skill-card fade-in">
+              <div class="skill-card-header">
+                <i class="bx bx-data"></i>
+                <h3>Backend</h3>
+              </div>
+              <ul class="skill-list">
+                <li>
+                  <span>Java</span>
+                  <div class="progress-bar">
+                    <div class="progress" data-width="55%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span>SQL</span>
+                  <div class="progress-bar">
+                    <div class="progress" data-width="70%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span>Docker</span>
+                  <div class="progress-bar">
+                    <div class="progress" data-width="45%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span>Postman</span>
+                  <div class="progress-bar">
+                    <div class="progress" data-width="85%"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="skill-card fade-in">
+              <div class="skill-card-header">
+                <i class="bx bx-paint"></i>
+                <h3>Design & Tools</h3>
+              </div>
+              <ul class="skill-list">
+                <li>
+                  <span>UI/UX Design</span>
+                  <div class="progress-bar">
+                    <div class="progress" data-width="90%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span>Figma</span>
+                  <div class="progress-bar">
+                    <div class="progress" data-width="95%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span>WebFlow</span>
+                  <div class="progress-bar">
+                    <div class="progress" data-width="80%"></div>
+                  </div>
+                </li>
+                <li>
+                  <span>Inkscape</span>
+                  <div class="progress-bar">
+                    <div class="progress" data-width="75%"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <h3 class="tech-title fade-in">Weitere Technologien</h3>
+          <div class="tech-tags fade-in">
+            <span class="tech-tag">Vibe coding</span>
+            <span class="tech-tag">Next.js</span>
+            <span class="tech-tag">Tailwind CSS</span>
+            <span class="tech-tag">Vite</span>
+            <span class="tech-tag">VSCode</span>
+            <span class="tech-tag">IntelliJ IDEA</span>
+            <span class="tech-tag">Beekeeper</span>
+            <span class="tech-tag">Microsoft Office</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="experience section">
+        <div class="container">
+          <h2 class="section-title fade-in">Berufserfahrung</h2>
+          <div class="timeline">
+            <div class="timeline-item fade-in">
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Full Stack Developer</h3>
+                  <span class="tag tag-date">01.2025 - 08.2025</span>
+                </div>
+                <p class="company">AIT TR GmbH, Berlin</p>
+                <p>
+                  Weiterbildung zum Full Stack Developer mit Fokus auf moderne
+                  Web-Technologien.
+                </p>
+                <p>
+                  Aktive Beteiligung an Teamprojekten - Gewährleistung eines
+                  reibungslosen Teamworks, Förderung einer effektiven
+                  Kommunikation und gemeinsames Erreichen der Projektziele.
+                </p>
+                <p>
+                  Zuverlässige Umsetzung aller Aufgaben - Einhaltung von Fristen
+                  und Qualitätsstandards, Flexibilität bei der Lösung
+                  ungewöhnlicher Herausforderungen und präzise Ausführung von
+                  Anforderungen.
+                </p>
+                <p>
+                  Umsetzung neuer Designideen im Frontend - Anwendung moderner
+                  UI/UX-Ansätze, Anpassung des Designs an Benutzerbedürfnisse
+                  sowie Arbeit mit innovativen Technologien und Bibliotheken.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item fade-in">
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Integrationskurs Deutsch</h3>
+                  <span class="tag tag-date">02.2023 - 09.2024</span>
+                </div>
+                <p class="company">VHS, AAW, Sprachakademie</p>
+                <p>
+                  Abschluss mit Zertifikat A2 - Grundlagen der deutschen Sprache
+                  und Kultur. Leben in Deutschland - die Prüfung bestanden.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item fade-in">
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Lagerverwalter & Content-Manager</h3>
+                  <span class="tag tag-date">11.2010 - 06.2022</span>
+                </div>
+                <p class="company">Online-Shop "Kaidi", Odessa</p>
+                <p>
+                  Buchhaltung, Lieferung, Inventur, Bestellungen sammeln und
+                  Verpackung, Wareneingang in Geschäften und Lagern. Pflege
+                  aller zugehörigen Dokumentationen. Extra: Umsetzung und
+                  Bearbeitung von Produktfotografie. Arbeit mit WordPress,
+                  Torgsoft, Inkscape, Sketchbook und ACDSee.
+                </p>
+                <div class="tech-tags experience-tags">
+                  <span class="tech-tag">Lagerverwaltung</span>
+                  <span class="tech-tag">Content-Management</span>
+                  <span class="tech-tag">WordPress</span>
+                  <span class="tech-tag">Fotografie</span>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item fade-in">
+              <div class="timeline-content">
+                <h3>Weitere Berufserfahrung</h3>
+                <ul class="experience-list">
+                  <li>
+                    Verkaufsleitung - OJSC Plant "Ilyichevsky", Ukraine (2009 -
+                    2010)
+                  </li>
+                  <li>
+                    Regional Manager - OJSC Plant "Ilyichevsky", Ukraine (2008 -
+                    2009)
+                  </li>
+                  <li>Gebietsleiter - Caraway Foods, Russland (2005 - 2007)</li>
+                  <li>Supervisor - Caraway Foods, Russland (2004 - 2005)</li>
+                  <li>
+                    Handelsvertreter - Caraway Foods, Russland (2003 - 2004)
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item fade-in">
+              <div class="timeline-content">
+                <h3>Ausbildung</h3>
+                <ul class="experience-list">
+                  <li>
+                    Psychologie - Studium in S.H.U. (Universität Smolensk),
+                    Russland, Abschluß (1997-2003)
+                  </li>
+                  <li>
+                    Abschluß Oberschulreife - Oberschule in Zelinograd,
+                    Kasachstan (1987-1997)
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item fade-in">
+              <div class="timeline-content">
+                <h3>Führerschein</h3>
+                <p>Führerscheinklasse - Kl. - B</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div class="container">
+          <h2 class="section-title fade-in">Kontakt</h2>
+          <h3 class="contact-subtitle fade-in">Lassen Sie uns sprechen</h3>
+          <p class="fade-in">
+            Ich freue mich über Ihre Nachricht und neue berufliche
+            Möglichkeiten. Kontaktieren Sie mich gerne für Projekte oder
+            Kooperationen.
+          </p>
+          <div class="contact-info">
+            <div class="contact-item fade-in">
+              <div class="contact-icon"><i class="bx bx-envelope"></i></div>
+              <div>
+                <h4>E - Mail</h4>
+                <a href="mailto:eskhmelev@gmail.com">eskhmelev@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item fade-in">
+              <div class="contact-icon"><i class="bx bx-map-pin"></i></div>
+              <div>
+                <h4>Standort</h4>
+                <p>Ettlingen 76275, Deutschland</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-info">
+          <h3 class="footer-title">
+            Evgeniy Khmelev <i class="bx bx-badge-check icon-large"></i>
+          </h3>
+          <p>Creative Designer / Frontend Developer</p>
+        </div>
+        <a href="#hero" class="nav-logo"
+          ><img src="assets/exLogo6.png" alt="Evgenii Khmelev Logo"
+        /></a>
+        <div class="footer-right">
+          <div class="footer-socials">
+            <a
+              href="https://linkedin.com/in/evgeniy-khmelev-a673121a7"
+              aria-label="LinkedIn"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/Eugen-coder"
+              aria-label="GitHub"
+              target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="mailto:eskhmelev@gmail.com"
+              aria-label="Email"
+              target="_blank"
+              ><i class="bx bx-envelope"></i
+            ></a>
+          </div>
+          <p class="copyright">
+            &copy; 2025 Evgeniy Khmelev. Alle Rechte vorbehalten.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#hero" id="back-to-top" aria-label="Back to top"
+      ><i class="bx bx-up-arrow-alt"></i
+    ></a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
